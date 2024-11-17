@@ -1,5 +1,4 @@
 from django.contrib import admin
-
 from apps.notificacionEstudiante.models import NotificacionEstudiante
 
 # Register your models here.
