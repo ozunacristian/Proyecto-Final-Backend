@@ -48,14 +48,18 @@ EXTERNAL_APPS = [
 #APPS PROPIAS, lo que puede generar error.
 LOCAL_APPS = [
     'apps.alumno',
+<<<<<<< HEAD
     'apps.asignacion',
     'apps.cicloLectivo',
     'apps.comandos', # app para generar datos aleatorios en base de datos
+=======
+    'apps.calificacion',
+>>>>>>> 32541215ee602ad882f987b15e0facbc0b830a6d
     'apps.cursada',
     'apps.evento',
+    'apps.inscripcion',
     'apps.materia',
     'apps.profesor',
-    'apps.notificacionEstudiante',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + EXTERNAL_APPS
@@ -127,9 +131,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-# TIME_ZONE = 'UTC'
-# Se modifica zona horaria.
-TIME_ZONE = 'America/Argentina/Buenos_Aires'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
